@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(80, 80, 80);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#content{
+    background-color: rgb(27, 27, 27);;
+    color: azure;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 10px;
+    
+}
+#name{
+    color: rgb(251, 255, 0);
+    background-color: rgb(27, 27, 27);
+    margin: 20px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+table {
+    border: 1px solid grey;
+}
+th {
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+}
